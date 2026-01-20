@@ -114,6 +114,9 @@ Dans notre cas, l'optimisation se fait grâce à ADAM : un algorithme d'optimisa
 Avec le Momemtum les gradients de poids prédécent ont plus d'influence que les gradients de poids trouvé lors de l'itération.
 Avec RMSProp le learning rate de chaque gradient poids est optimisé par rapport à son échelle.
 
+# Principales formules utilisées
+![Schema](images/formules.png)
+
 # Fichiers
 ```
 ├── data.csv
