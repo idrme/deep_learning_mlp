@@ -153,3 +153,8 @@ python3 main.py train_set.csv validation_set.csv
 ```
 python3 predict.py validation_set.csv export.pkl
 ```
+
+## Résultats
+![Schema](images/results.png)
+![Schema](images/loss.png)
+![Schema](images/accuracy.png)
