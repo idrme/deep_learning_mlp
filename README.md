@@ -76,8 +76,8 @@ Cela renverra donc une valeur unique supérieure ou égale à 0. On fait donc la
 
 # Back propagation
 La back propagation consistera à trouver les gradients. Ils nous permettront d'obtenir les nouveaux poids, biais et deltas.
-Avant de pouvoir calculer les gradients de poids et de biais, il faut calculer les valeurs delta pour chaque neurones de chaque échantillon.
-Si la dernière couche contient deux neurones et que j'ai un batch de 16 échantillons, alors il y aura 2 delta pour chaque échantillon dans la matrice renvoyée par la fonction cout CCE et fonction d'activation softmax.
+Avant de pouvoir calculer les gradients de poids et de biais, il faut calculer les valeurs deltas pour chaque neurone de chaque échantillon.
+Si la dernière couche contient deux neurones et que j'ai un batch de 16 échantillons, alors il y aura 2 deltas pour chaque échantillon dans la matrice renvoyée par la fonction CCE et par la fonction d'activation softmax.
 
 La dernière couche dans le cadre d'un softmax / CCE ou Sigmoid / BCE sont particuliers. Je peux calculer directement les deltas a partir de la sortie de la fonction coût.
 ![Schema](images/delta_derniere_couche1.png)
